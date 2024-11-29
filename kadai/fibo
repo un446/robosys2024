@@ -1,0 +1,38 @@
+#!/usr/bin/python3
+#SPDX-FileCopyrightText: 2024 Yuna Isomura
+#SPDX-License-Identifier:BSD-3-Clause
+
+import sys
+
+def fibo_num(n):
+    a, b = 1, 1 #最初のフィボナッチ数
+
+    if n >= 1:
+        print(a, end=" ")
+
+    if n >= 2:
+        print(b, end=" ")
+
+    for _ in range(3, n + 1):
+        next_num = a + b
+        print(next_num, end=" ")
+        a, b = b, next_num
+
+    print()
+
+if len(sys.argv) != 2:
+    print("./fibo ｎ　のように入力してください")
+    print("(n番目までフィボナッチ数列を表示する)")
+    sys.exit(1)
+
+input_num = sys.argv[1]
+if not input_num.isdigit():
+    print("nは正の整数のみです")
+    sys.exit(1)
+
+n = int(input_num)
+if n <= 0:
+    print("nは正の整数のみです")
+    sys.exit(1)
+
+fibo_num(n)
