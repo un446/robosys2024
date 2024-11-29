@@ -11,19 +11,9 @@
 - ｎ(正の整数)を受け取り、フィボナッチ数列の第ｎ項までを計算し表示します。ｎが正の整数以外を受け取った際は、エラーメッセージが表示されるようになっています。
 
 
-## インストール方法
+## クローン方法
 - リポジトリをクローン<br>
 git clone https://github.com/un446/robosys2024.git
-
-- ディレクトリに移動<br>
-cd robosys2024/kadai/
-
-- 依存関係をインストール<br>
-pip install -r requirements.txt
-
-- 必要なパッケージのインストール<br>
-sudo apt update<br>
-sudo apt install python3 python3-venv python-pip
 
 
 ## 使い方
