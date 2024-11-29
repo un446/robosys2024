@@ -18,6 +18,9 @@ git clone https://github.com/un446/robosys2024.git
 - ディレクトリに移動<br>
 cd robosys2024/kadai/
 
+- 依存関係をインストール<br>
+pip install -r requirements.txt
+
 
 ## 使い方
 - 実行方法の例<br>
