@@ -21,8 +21,8 @@ cd robosys2024/kadai/
 - 依存関係をインストール<br>
 pip install -r requirements.txt
 
-- 必要なパッケージのインストール
-sudo apt update
+- 必要なパッケージのインストール<br>
+sudo apt update<br>
 sudo apt install python3 python3-venv python-pip
 
 
