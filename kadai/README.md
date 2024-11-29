@@ -12,10 +12,10 @@
 
 
 ## インストール方法
-リポジトリをクローン<br>
+- リポジトリをクローン<br>
 git clone https://github.com/un446/robosys2024.git
 
-ディレクトリに移動<br>
+- ディレクトリに移動<br>
 cd robosys2024/kadai/
 
 
