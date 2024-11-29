@@ -12,10 +12,10 @@
 
 
 ## インストール方法
-リポジトリをクローン
+リポジトリをクローン<br>
 git clone https://github.com/un446/robosys2024.git
 
-ディレクトリに移動
+ディレクトリに移動<br>
 cd robosys2024/kadai/
 
 
@@ -26,11 +26,11 @@ cd robosys2024/kadai/
  1 1 2 3 5 <br>
 
 # 必要なソフトウェア
--Python
- -テスト済みバージョン：3.7~3.10
+- Python
+ - テスト済みバージョン：3.7~3.10
 
 # テスト環境
-‐Ubuntu 20.04 on Windows
+‐ Ubuntu 20.04 on Windows
 
 # ライセンス
 このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます。
