@@ -22,7 +22,7 @@ def fibo_num(n):
 
 if len(sys.argv) != 2:
     print("./fibo ｎ　のように入力してください")
-    print("(n番目までフィボナッチ数列を表示する)")
+    print("(フィボナッチ数列の第ｎ項まで表示する)")
     sys.exit(1)
 
 input_num = sys.argv[1]
