@@ -8,31 +8,31 @@ def fibo_num(n):
     a, b = 1, 1 #最初のフィボナッチ数
 
     if n >= 1:
-        print(a, end=" ")
+        print(a, end=" ")#第1項
 
     if n >= 2:
-        print(b, end=" ")
+        print(b, end=" ")#第2項
 
-    for _ in range(3, n + 1):
+    for _ in range(3, n + 1):#第3項以降
         next_num = a + b
         print(next_num, end=" ")
         a, b = b, next_num
 
     print()
 
-if len(sys.argv) != 2:
+if len(sys.argv) != 2:#入力に不備
     print("./fibo ｎ　のように入力してください")
     print("(フィボナッチ数列の第ｎ項まで表示する)")
     sys.exit(1)
 
-input_num = sys.argv[1]
+input_num = sys.argv[1]#数字以外の時
 if not input_num.isdigit():
     print("nは正の整数のみです")
     sys.exit(1)
 
-n = int(input_num)
+n = int(input_num)#０の時
 if n <= 0:
-    print("nは正の整数のみです")
+    print("nは正の整数のみです。")
     sys.exit(1)
 
 fibo_num(n)
