@@ -1,9 +1,34 @@
-# robosys2024
-robosys2024
+# 課題１
 
-* このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-* このパッケージは，3条項BSDライセンスのもとryuichiueda/emcl由来のコード（© 2022 Hoge Fuge）を利用しています．
-* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-    * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
-* © 2022 Ryuichi Ueda
-* © 2024 Yuna Isomura
+フィボナッチ数列を表示するプログラムです。
+
+# plusコマンド
+![test](https://github.com/un446/robosys2024/actions/workflows/test.yml/badge.svg)
+
+## 概要
+- 入力したｎ(正の整数のみ)に基づいて、フィボナッチ数列の第ｎ項までを出力するPythonプログラムです。<br>
+- フィボナッチ数列は、人口の変動モデルや個体数の成長モデル、花の中心部分など、自然界の効率的に進めたい物事にも多く用いられています。したがって、このプロジェクトを用いることで、様々な物事を効率的に行うことが可能になると考えています。<br>
+- ｎ(正の整数)を受け取り、フィボナッチ数列の第ｎ項までを計算し表示します。ｎが正の整数以外を受け取った際は、エラーメッセージが表示されるようになっています。
+
+
+## クローン方法
+- リポジトリをクローン<br>
+git clone https://github.com/un446/robosys2024.git
+
+
+## 使い方
+- 実行方法の例<br>
+ (フィボナッチ数列の第５項までを表示したい場合)<br>
+ ＄ ./fibo 5<br>
+ 1 1 2 3 5 <br>
+
+## 必要なソフトウェア
+- Python
+  - テスト済みバージョン：3.7~3.10
+
+## テスト環境
+- Ubuntu 20.04 on Windows
+
+## ライセンス
+このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます。<br>
+©2024 Yuna Isomura
