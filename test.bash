@@ -11,15 +11,15 @@ res=0
 
 
 ### I/O ###
-out=$(./fibo 1)
+out=$(echo 1 | ./fibo)
 out=$(echo "$out" | xargs)
 [ "${out}" = "1" ] || ng "${LINENO}"
 
-out=$(./fibo 5)
+out=$(echo 5 | ./fibo)
 out=$(echo "$out" | xargs)
 [ "${out}" = "1 1 2 3 5" ] || ng "${LINENO}"
 
-out=$(./fibo 10)
+out=$(echo 10 | ./fibo)
 out=$(echo "$out" | xargs)
 [ "${out}" = "1 1 2 3 5 8 13 21 34 55" ] || ng "${LINENO}"
 
