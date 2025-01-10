@@ -20,19 +20,14 @@ def fibo_num(n):
 
     print()
 
-if len(sys.argv) != 2:#入力に不備
-    print("./fibo ｎ　のように入力してください")
-    print("(フィボナッチ数列の第ｎ項まで表示する)")
-    sys.exit(1)
+if __name__ == "__main__":
+    input_line = sys.stdin.read().strip()
 
-input_num = sys.argv[1]#数字以外の時
-if not input_num.isdigit():
-    print("nは正の整数のみです")
-    sys.exit(1)
+    if not input_line.isdigit():
+        sys.exit(1)
 
-n = int(input_num)#０以下の時
-if n <= 0:
-    print("nは正の整数のみです。")
-    sys.exit(1)
+    n = int(input_line)
+    if n <= 0:
+        sys.exit(1)
 
 fibo_num(n)
